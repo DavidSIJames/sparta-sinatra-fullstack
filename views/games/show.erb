@@ -1,0 +1,8 @@
+<small><a href="/games/<%= @game.id %>/edit">Edit</a></small>
+<h1>Show Page for <%= @game.title %></h1>
+<h3>Released: <%= @game.released %></h3>
+<h4>Genre: <%= @game.genre %></h4>
+<form class="" action="/games/<%= @game.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Delete">
+</form>

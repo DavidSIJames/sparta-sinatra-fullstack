@@ -1,0 +1,22 @@
+<h1>Game Index</h1>
+
+<table class="table">
+  <thead>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Released</th>
+    <th>Genre</th>
+    <th>Developer ID</th>
+  </thead>
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+        <td><%= game.id %></td>
+        <td><a href="/games/<%= game.id %>"><%= game.title %></a></td>
+        <td><%= game.released %></td>
+        <td><<%= game.genre %></td>
+        <td><%= game.developer_id %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
