@@ -1,0 +1,8 @@
+<small><a href="/developers/<%= @developers.id %>/edit">Edit</a></small>
+<h1><%= @developers.name %></h1>
+<h3>Founded: <%= @developers.founded %></h3>
+<h4>Country: <%= @developers.country%></h4>
+<form class="" action="/developers/<%= @developers.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Delete">
+</form>
