@@ -12,8 +12,8 @@ require_relative './controllers/games_controller.rb'
 use Rack::Reloader
 use Rack::MethodOverride
 
-run Rack::Casade.new([
+run Rack::Cascade.new([
   StaticController,
   GamesController,
-  DeveloperController
+  DevelopersController
 ])
