@@ -1,0 +1,24 @@
+@import'layout/global.scss';
+@import'layout/navbar.scss';
+@import'layout/footer.scss';
+@import'layout/list.scss';
+
+body{
+  background: $main;
+  color: $main-text;
+  a{
+    color: $main-text;
+    &:hover{
+      color: $navbar;
+    }
+  }
+}
+main{
+  padding-bottom: 150px;
+}
+img{
+  width: 50%;
+}
+.dev-img{
+  margin-top: 70px;
+}

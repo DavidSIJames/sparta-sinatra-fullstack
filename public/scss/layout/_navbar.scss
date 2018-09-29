@@ -1,0 +1,9 @@
+.navbar{
+  background: $navbar !important;
+  a{
+    color: $navbar-text !important;
+    &:hover{
+      color:$navbar-text-hover !important;
+    }
+  }
+}

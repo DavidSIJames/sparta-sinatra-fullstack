@@ -8,6 +8,7 @@ class StaticController < Sinatra::Base
   set :views, Proc.new {File.join(root,"views")}
 
   get '/' do
+    @title="Main Page"
     erb :'static/landing'
   end
 end

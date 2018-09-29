@@ -1,0 +1,35 @@
+.navbar {
+  background: #022A41 !important; }
+  .navbar a {
+    color: #DE8920 !important; }
+    .navbar a:hover {
+      color: #FFE9CE !important; }
+
+footer {
+  background: #022A41;
+  padding: 62px 0px; }
+
+ul {
+  margin-top: 20px; }
+  ul li {
+    background: #1B638E !important;
+    color: #FFE9CE !important; }
+
+body {
+  background: #0E4D72;
+  color: #A0B6C3; }
+  body a {
+    color: #A0B6C3; }
+    body a:hover {
+      color: #022A41; }
+
+main {
+  padding-bottom: 150px; }
+
+img {
+  width: 50%; }
+
+.dev-img {
+  margin-top: 70px; }
+
+/*# sourceMappingURL=main.css.map */
